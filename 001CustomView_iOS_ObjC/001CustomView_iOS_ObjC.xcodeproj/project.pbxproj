@@ -15,6 +15,8 @@
 		82ED06F51B8757FB0021D8DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED06F31B8757FB0021D8DE /* LaunchScreen.xib */; };
 		82ED07011B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07001B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m */; };
 		82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */; };
+		82ED07111B875CCD0021D8DE /* LabelMadness.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07101B875CCD0021D8DE /* LabelMadness.m */; };
+		82ED07151B87622B0021D8DE /* LabelMadness.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07141B87622B0021D8DE /* LabelMadness.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		82ED07001B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01CustomView_iOS_ObjCTests.m; sourceTree = "<group>"; };
 		82ED070B1B8758CA0021D8DE /* CustomViewFromXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewFromXib.h; sourceTree = "<group>"; };
 		82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewFromXib.m; sourceTree = "<group>"; };
+		82ED070F1B875CCD0021D8DE /* LabelMadness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMadness.h; sourceTree = "<group>"; };
+		82ED07101B875CCD0021D8DE /* LabelMadness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMadness.m; sourceTree = "<group>"; };
+		82ED07141B87622B0021D8DE /* LabelMadness.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelMadness.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		82ED06E31B8757FB0021D8DE /* 001CustomView_iOS_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				82ED070E1B875C890021D8DE /* Objetos Xib */,
 				82ED070A1B8758730021D8DE /* Reuse for Xib Loading */,
 				82ED06E81B8757FB0021D8DE /* AppDelegate.h */,
 				82ED06E91B8757FB0021D8DE /* AppDelegate.m */,
@@ -130,6 +136,16 @@
 				82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */,
 			);
 			name = "Reuse for Xib Loading";
+			sourceTree = "<group>";
+		};
+		82ED070E1B875C890021D8DE /* Objetos Xib */ = {
+			isa = PBXGroup;
+			children = (
+				82ED070F1B875CCD0021D8DE /* LabelMadness.h */,
+				82ED07101B875CCD0021D8DE /* LabelMadness.m */,
+				82ED07141B87622B0021D8DE /* LabelMadness.xib */,
+			);
+			name = "Objetos Xib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82ED07151B87622B0021D8DE /* LabelMadness.xib in Resources */,
 				82ED06F01B8757FB0021D8DE /* Main.storyboard in Resources */,
 				82ED06F51B8757FB0021D8DE /* LaunchScreen.xib in Resources */,
 				82ED06F21B8757FB0021D8DE /* Images.xcassets in Resources */,
@@ -234,6 +251,7 @@
 			files = (
 				82ED06ED1B8757FB0021D8DE /* ViewController.m in Sources */,
 				82ED06EA1B8757FB0021D8DE /* AppDelegate.m in Sources */,
+				82ED07111B875CCD0021D8DE /* LabelMadness.m in Sources */,
 				82ED06E71B8757FB0021D8DE /* main.m in Sources */,
 				82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */,
 			);
