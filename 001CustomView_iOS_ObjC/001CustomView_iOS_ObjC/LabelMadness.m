@@ -10,6 +10,12 @@
 
 @implementation LabelMadness
 
+
+
+
+
+
+
 -(instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
@@ -28,6 +34,9 @@
 
 - (IBAction)buttonPressed:(id)sender {
     NSLog(@"ButtonPressed.");
-    
 }
+
+
+
+
 @end

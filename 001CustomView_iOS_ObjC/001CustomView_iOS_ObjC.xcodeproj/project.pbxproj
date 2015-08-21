@@ -17,6 +17,8 @@
 		82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */; };
 		82ED07111B875CCD0021D8DE /* LabelMadness.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07101B875CCD0021D8DE /* LabelMadness.m */; };
 		82ED07151B87622B0021D8DE /* LabelMadness.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07141B87622B0021D8DE /* LabelMadness.xib */; };
+		82ED07181B87654C0021D8DE /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07171B87654C0021D8DE /* SubClass.m */; };
+		82ED071A1B8765590021D8DE /* SubClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07191B8765590021D8DE /* SubClass.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		82ED070F1B875CCD0021D8DE /* LabelMadness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelMadness.h; sourceTree = "<group>"; };
 		82ED07101B875CCD0021D8DE /* LabelMadness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelMadness.m; sourceTree = "<group>"; };
 		82ED07141B87622B0021D8DE /* LabelMadness.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelMadness.xib; sourceTree = "<group>"; };
+		82ED07161B87654C0021D8DE /* SubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		82ED07171B87654C0021D8DE /* SubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
+		82ED07191B8765590021D8DE /* SubClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubClass.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,9 @@
 				82ED070F1B875CCD0021D8DE /* LabelMadness.h */,
 				82ED07101B875CCD0021D8DE /* LabelMadness.m */,
 				82ED07141B87622B0021D8DE /* LabelMadness.xib */,
+				82ED07161B87654C0021D8DE /* SubClass.h */,
+				82ED07171B87654C0021D8DE /* SubClass.m */,
+				82ED07191B8765590021D8DE /* SubClass.xib */,
 			);
 			name = "Objetos Xib";
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				82ED07151B87622B0021D8DE /* LabelMadness.xib in Resources */,
 				82ED06F01B8757FB0021D8DE /* Main.storyboard in Resources */,
+				82ED071A1B8765590021D8DE /* SubClass.xib in Resources */,
 				82ED06F51B8757FB0021D8DE /* LaunchScreen.xib in Resources */,
 				82ED06F21B8757FB0021D8DE /* Images.xcassets in Resources */,
 			);
@@ -252,6 +261,7 @@
 				82ED06ED1B8757FB0021D8DE /* ViewController.m in Sources */,
 				82ED06EA1B8757FB0021D8DE /* AppDelegate.m in Sources */,
 				82ED07111B875CCD0021D8DE /* LabelMadness.m in Sources */,
+				82ED07181B87654C0021D8DE /* SubClass.m in Sources */,
 				82ED06E71B8757FB0021D8DE /* main.m in Sources */,
 				82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */,
 			);
