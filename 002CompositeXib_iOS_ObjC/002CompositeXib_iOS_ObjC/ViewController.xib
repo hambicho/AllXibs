@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Wzz-Tp-6MA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lV4-jL-Mcb">
+                    <rect key="frame" x="200" y="33" width="200" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="ZHh-fZ-uN0"/>
+                        <constraint firstAttribute="height" constant="100" id="bqQ-3n-sXK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jr-18-dKu">
+                    <rect key="frame" x="200" y="154" width="200" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="hlT-Ry-Jav"/>
+                        <constraint firstAttribute="width" constant="200" id="nYb-CL-vE7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.59895696671381038" blue="0.57569919844784501" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="9jr-18-dKu" firstAttribute="top" secondItem="lV4-jL-Mcb" secondAttribute="bottom" constant="21" id="CVp-aQ-WaT"/>
+                <constraint firstAttribute="centerX" secondItem="lV4-jL-Mcb" secondAttribute="centerX" id="ID1-og-cm4"/>
+                <constraint firstItem="lV4-jL-Mcb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="33" id="Ohm-8o-24z"/>
+                <constraint firstAttribute="centerX" secondItem="9jr-18-dKu" secondAttribute="centerX" id="jw9-qq-iiA"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
