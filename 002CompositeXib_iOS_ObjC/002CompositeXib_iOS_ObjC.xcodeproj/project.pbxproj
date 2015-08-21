@@ -14,6 +14,9 @@
 		82ED07381B87A34F0021D8DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07361B87A34F0021D8DE /* LaunchScreen.xib */; };
 		82ED07441B87A34F0021D8DE /* _02CompositeXib_iOS_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07431B87A34F0021D8DE /* _02CompositeXib_iOS_ObjCTests.m */; };
 		82ED07501B87A4450021D8DE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED074F1B87A4450021D8DE /* ViewController.xib */; };
+		82ED07531B87C7F10021D8DE /* WidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07521B87C7F10021D8DE /* WidgetView.m */; };
+		82ED07551B87C8080021D8DE /* WidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07541B87C8080021D8DE /* WidgetView.xib */; };
+		82ED07571B87CAD80021D8DE /* Star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED07561B87CAD80021D8DE /* Star1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		82ED07421B87A34F0021D8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82ED07431B87A34F0021D8DE /* _02CompositeXib_iOS_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _02CompositeXib_iOS_ObjCTests.m; sourceTree = "<group>"; };
 		82ED074F1B87A4450021D8DE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		82ED07511B87C7F10021D8DE /* WidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetView.h; sourceTree = "<group>"; };
+		82ED07521B87C7F10021D8DE /* WidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetView.m; sourceTree = "<group>"; };
+		82ED07541B87C8080021D8DE /* WidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetView.xib; sourceTree = "<group>"; };
+		82ED07561B87CAD80021D8DE /* Star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star1.png; path = ../Star1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		82ED07261B87A34F0021D8DE /* 002CompositeXib_iOS_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				82ED07581B87CAE10021D8DE /* img */,
 				82ED074E1B87A3A70021D8DE /* Xib WidgetView */,
 				82ED074D1B87A39C0021D8DE /* Xib Principal */,
 				82ED072B1B87A34F0021D8DE /* AppDelegate.h */,
@@ -131,8 +139,19 @@
 		82ED074E1B87A3A70021D8DE /* Xib WidgetView */ = {
 			isa = PBXGroup;
 			children = (
+				82ED07511B87C7F10021D8DE /* WidgetView.h */,
+				82ED07521B87C7F10021D8DE /* WidgetView.m */,
+				82ED07541B87C8080021D8DE /* WidgetView.xib */,
 			);
 			name = "Xib WidgetView";
+			sourceTree = "<group>";
+		};
+		82ED07581B87CAE10021D8DE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				82ED07561B87CAD80021D8DE /* Star1.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +236,8 @@
 			files = (
 				82ED07381B87A34F0021D8DE /* LaunchScreen.xib in Resources */,
 				82ED07501B87A4450021D8DE /* ViewController.xib in Resources */,
+				82ED07551B87C8080021D8DE /* WidgetView.xib in Resources */,
+				82ED07571B87CAD80021D8DE /* Star1.png in Resources */,
 				82ED07351B87A34F0021D8DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +258,7 @@
 			files = (
 				82ED07301B87A34F0021D8DE /* ViewController.m in Sources */,
 				82ED072D1B87A34F0021D8DE /* AppDelegate.m in Sources */,
+				82ED07531B87C7F10021D8DE /* WidgetView.m in Sources */,
 				82ED072A1B87A34F0021D8DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
