@@ -14,6 +14,7 @@
 		82ED06F21B8757FB0021D8DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82ED06F11B8757FB0021D8DE /* Images.xcassets */; };
 		82ED06F51B8757FB0021D8DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED06F31B8757FB0021D8DE /* LaunchScreen.xib */; };
 		82ED07011B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED07001B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m */; };
+		82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		82ED06FA1B8757FB0021D8DE /* 001CustomView_iOS_ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 001CustomView_iOS_ObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ED06FF1B8757FB0021D8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82ED07001B8757FB0021D8DE /* _01CustomView_iOS_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01CustomView_iOS_ObjCTests.m; sourceTree = "<group>"; };
+		82ED070B1B8758CA0021D8DE /* CustomViewFromXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewFromXib.h; sourceTree = "<group>"; };
+		82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewFromXib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		82ED06E31B8757FB0021D8DE /* 001CustomView_iOS_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				82ED070A1B8758730021D8DE /* Reuse for Xib Loading */,
 				82ED06E81B8757FB0021D8DE /* AppDelegate.h */,
 				82ED06E91B8757FB0021D8DE /* AppDelegate.m */,
 				82ED06EB1B8757FB0021D8DE /* ViewController.h */,
@@ -117,6 +121,15 @@
 				82ED06FF1B8757FB0021D8DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82ED070A1B8758730021D8DE /* Reuse for Xib Loading */ = {
+			isa = PBXGroup;
+			children = (
+				82ED070B1B8758CA0021D8DE /* CustomViewFromXib.h */,
+				82ED070C1B8758CA0021D8DE /* CustomViewFromXib.m */,
+			);
+			name = "Reuse for Xib Loading";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				82ED06ED1B8757FB0021D8DE /* ViewController.m in Sources */,
 				82ED06EA1B8757FB0021D8DE /* AppDelegate.m in Sources */,
 				82ED06E71B8757FB0021D8DE /* main.m in Sources */,
+				82ED070D1B8758CA0021D8DE /* CustomViewFromXib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
