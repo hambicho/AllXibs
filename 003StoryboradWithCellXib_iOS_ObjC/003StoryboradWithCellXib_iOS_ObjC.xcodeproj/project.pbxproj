@@ -14,6 +14,8 @@
 		82877CE91B98DC4A0045096F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82877CE81B98DC4A0045096F /* Images.xcassets */; };
 		82877CEC1B98DC4A0045096F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82877CEA1B98DC4A0045096F /* LaunchScreen.xib */; };
 		82877CF81B98DC4A0045096F /* _03StoryboradWithCellXib_iOS_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82877CF71B98DC4A0045096F /* _03StoryboradWithCellXib_iOS_ObjCTests.m */; };
+		82877D091B98EB340045096F /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82877D081B98EB340045096F /* MyCustomCell.m */; };
+		82877D0B1B98EB450045096F /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82877D0A1B98EB450045096F /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		82877CF11B98DC4A0045096F /* 003StoryboradWithCellXib_iOS_ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 003StoryboradWithCellXib_iOS_ObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82877CF61B98DC4A0045096F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82877CF71B98DC4A0045096F /* _03StoryboradWithCellXib_iOS_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _03StoryboradWithCellXib_iOS_ObjCTests.m; sourceTree = "<group>"; };
+		82877D071B98EB340045096F /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
+		82877D081B98EB340045096F /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
+		82877D0A1B98EB450045096F /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		82877CDA1B98DC490045096F /* 003StoryboradWithCellXib_iOS_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				82877D061B98EB1D0045096F /* CustomCell */,
 				82877CDF1B98DC490045096F /* AppDelegate.h */,
 				82877CE01B98DC490045096F /* AppDelegate.m */,
 				82877CE21B98DC490045096F /* ViewController.h */,
@@ -117,6 +123,16 @@
 				82877CF61B98DC4A0045096F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82877D061B98EB1D0045096F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				82877D071B98EB340045096F /* MyCustomCell.h */,
+				82877D081B98EB340045096F /* MyCustomCell.m */,
+				82877D0A1B98EB450045096F /* MyCustomCell.xib */,
+			);
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82877CE71B98DC490045096F /* Main.storyboard in Resources */,
+				82877D0B1B98EB450045096F /* MyCustomCell.xib in Resources */,
 				82877CEC1B98DC4A0045096F /* LaunchScreen.xib in Resources */,
 				82877CE91B98DC4A0045096F /* Images.xcassets in Resources */,
 			);
@@ -221,6 +238,7 @@
 			files = (
 				82877CE41B98DC490045096F /* ViewController.m in Sources */,
 				82877CE11B98DC490045096F /* AppDelegate.m in Sources */,
+				82877D091B98EB340045096F /* MyCustomCell.m in Sources */,
 				82877CDE1B98DC490045096F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
